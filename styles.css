@@ -28,6 +28,18 @@ a{
   .gap{
     margin-left: 60px;
   }
+  .crop-img{
+  max-height:200px;
+  max-width:100%;
+  margin-bottom: 10px;
+}
+
+.large-img{
+  max-width:500%;
+  max-height:500px;
+  display:block;
+  margin:auto;
+}
   body{
   margin: 0 auto;
   padding: 0 auto;
@@ -44,18 +56,6 @@ a{
   font-weight: 700;
 }
 
-.crop-img{
-  max-height:200px;
-  max-width:100%;
-  margin-bottom: 10px;
-}
-
-.large-img{
-  max-width:500%;
-  max-height:500px;
-  display:block;
-  margin:auto;
-}
 * {
     margin: 0;
     padding: 0;
