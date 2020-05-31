@@ -1,0 +1,123 @@
+body{
+	background: white;
+	color: white;
+}
+a{
+	color: white;
+	text-decoration:none;
+}
+.greenlink:hover{
+	text-decoration:none;
+	color: orange;
+	background: none;
+
+}
+.bluelink:hover{
+	text-decoration:none;
+	color: red;
+	background:none;
+}
+.redlink:hover{
+	text-decoration:none;
+	color: yellow;
+	background: none;
+	}
+	.space{
+		margin-left: 20px;
+	}
+  .gap{
+    margin-left: 60px;
+  }
+  body{
+  margin: 0 auto;
+  padding: 0 auto;
+  background: black;
+}
+
+#text{
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+.crop-img{
+  max-height:200px;
+  max-width:100%;
+  margin-bottom: 10px;
+}
+
+.large-img{
+  max-width:500%;
+  max-height:500px;
+  display:block;
+  margin:auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+.centertext {
+    width: 20px auto;
+    margin: 20px auto;
+}
+
+.centertext h1 {
+    text-align: center;
+    font-size: 72px;
+    color: white;
+    font-weight: bold;
+    animation: textanimation 3s ease-in-out;
+}
+
+@keyframes textanimation {
+    0% {
+        letter-spacing: 20px;
+    }
+    100% {
+        letter-spacing: 1px;
+    }
+}
+
+.centertext p {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+    animation: textanimation2 3s ease-in-out;
+}
+
+@keyframes textanimation2 {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat";
+  background-image: linear-gradient(125deg,#2c3e50,#27ae60,#2980b9,#e74c3c,#8e44ad);
+  background-size: 400% 400%;
+  animation: bganimation 15s infinite;
+}
+
+@keyframes bganimation {
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+

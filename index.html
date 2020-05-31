@@ -1,5 +1,6 @@
 <html>
 	<head>
+			<meta charset="utf-8">
 		<title>ANAND UMESHCHAND PRAJAPATI</title>
 
 		<link rel="stylesheet"type="text/css"href="bootstrap.css"/>
@@ -10,7 +11,6 @@
 	</head>
 	<body>
         <br>
-
 		<a href="index.html" class="redlink">
 			<h3 class="space">HOME 
 		</a>
@@ -27,85 +27,62 @@
 		</a>
 		<hr>
 		<hr>
-		<div class="container">
-  <span class="text1">Welcome to</span>
-  <span class="text2">My website</span>
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<hr>
-<div id="text">
-
+		<div class="centertext">
+        <h1>WELCOME TO </h1>
+        <p>ART GALLERY</p>
     </div>
+<hr>
 
-<script type="text/javascript">
-  var i=0,text;
-  text = "ART GALLERY"
-
-  function typing() {
-    if(i<text.length){
-      document.getElementById("text").innerHTML += text.charAt(i);
-      i++;
-      setTimeout(typing,275);
-    }
-  }
-  typing();
-</script>
-		<br>
-		<br>
-
+<br>
+<br>
 		<center><div class="row">
-			
-				<img class="crop-img" 
-				  src="d.jpg" 
-				  alt="Dacing Girl "/> 
-			</div>
-		
-				<img class="crop-img" 
-				  src="f.jpg" 
-				  alt="Flower Art"/> 
-			</div>
-		
+			<div class="col-md-3">
 				<img class="crop-img" 
 				  src="b.jpg" 
-				  alt="Jersey"/> 
+				  alt="Abstract painting"/> 
 			</div>
-		
+			<div class="col-md-3">
 				<img class="crop-img" 
-				   src="l.jpg" 
-				   alt="Comedy Painting"/> 
+				  src="d.jpg" 
+				  alt="roboot"/> 
+			</div>
+			<div class="col-md-3">
+				<img class="crop-img" 
+				  src="c.jpg" 
+				  alt="Bear"/> 
+			</div>
+			<div class="col-md-3">
+				<img class="crop-img" 
+				   src="e.jpg" 
+				   alt="sketch"/> 
 			</div>
 		</div></center>
-
-	<div class="size"><div class="row">
-			<div class="indent">
-			
+		<br>
+<br>
+<br>
+<br>
+	<div class="row">
+		
+			<div class="col-md-12">
 				<img id="bigImage" 
 				  class="large-img" 
-				  src="d.jpg" 
-				  alt="Parrot art"/> 
-			</div>
+				  src="b.jpg" 
+				  alt="Abstract painting"/> 
 		</div>
 		</div>
 	</div>
 <br>
 <script>
 
-	$(".crop-img").click(function(){
+	$(".crop-img").click(
+		function(){
 			$("#bigImage").attr('src', 
 				$(this).attr('src'));
 		});
 	</script>
+	
 	</body>
+
 </html>
 
 
