@@ -1,0 +1,113 @@
+<html>
+	<head>
+		<title>ANAND UMESHCHAND PRAJAPATI</title>
+
+		<link rel="stylesheet"type="text/css"href="bootstrap.css"/>
+
+		<link rel="stylesheet"type="text/css"href="styles.css"/>	
+
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	</head>
+	<body>
+        <br>
+
+		<a href="index.html" class="redlink">
+			<h3 class="space">HOME 
+		</a>
+
+		 &nbsp;
+		<a 
+		href="aboutme.html" class="bluelink">
+		      		ABOUT
+		</a>
+		&nbsp;
+		<a 
+		href="contact.html" class="greenlink">
+			CONTACT</h3>
+		</a>
+		<hr>
+		<hr>
+		<div class="container">
+  <span class="text1">Welcome to</span>
+  <span class="text2">My website</span>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="text">
+
+    </div>
+
+<script type="text/javascript">
+  var i=0,text;
+  text = "ART GALLERY"
+
+  function typing() {
+    if(i<text.length){
+      document.getElementById("text").innerHTML += text.charAt(i);
+      i++;
+      setTimeout(typing,275);
+    }
+  }
+  typing();
+</script>
+		<br>
+		<br>
+
+		<center><div class="row">
+			<div class="col-md-3">
+				<img class="crop-img" 
+				  src="d.jpg" 
+				  alt="Dacing Girl "/> 
+			</div>
+			<div class="col-md-3">
+				<img class="crop-img" 
+				  src="f.jpg" 
+				  alt="Flower Art"/> 
+			</div>
+			<div class="col-md-3">
+				<img class="crop-img" 
+				  src="b.jpg" 
+				  alt="Jersey"/> 
+			</div>
+			<div class="col-md-3">
+				<img class="crop-img" 
+				   src="l.jpg" 
+				   alt="Comedy Painting"/> 
+			</div>
+		</div></center>
+
+	<div class="size"><div class="row">
+			<div class="indent">
+			<div class="col-md-12">
+				<img id="bigImage" 
+				  class="large-img" 
+				  src="d.jpg" 
+				  alt="Parrot art"/> 
+			</div>
+		</div>
+		</div>
+	</div>
+<br>
+<script>
+
+	$(".crop-img").click(function(){
+			$("#bigImage").attr('src', 
+				$(this).attr('src'));
+		});
+	</script>
+	</body>
+</html>
+
+
+
+
+
+
+
